@@ -1,0 +1,11 @@
+body{
+    background-image: url("../img/fondo.jpg");
+    background-repeat: no-repeat;
+}
+
+.item{
+    transition: 0.2s;
+}
+.item:hover{
+    transform : scale(1.1);
+}
