@@ -19,4 +19,14 @@ body{
 textarea{
     min-height: 8em;
 }
-
+.logoSize{
+    width: 50vw;
+}
+@media (min-width:768px){
+    .formSize{
+        width: 50vw;
+    }
+    .logoSize{
+        width: 25vw;
+    }
+}
