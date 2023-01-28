@@ -6,12 +6,10 @@ body{
     background-image: url("../img/fondo.jpg");
     background-repeat: no-repeat;
 }
-
 .item{
-
 }
 .item:hover{
-    transform : scale(1.1);
+    transform : scale(1.08);
     transition: 0.2s;
 }
 .logo img{
