@@ -5,22 +5,20 @@
 body{
     background-image: url("../img/fondo.jpg");
     background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 .item{
 }
 .item:hover{
-    transform : scale(1.08);
+    transform : scale(1.1);
     transition: 0.2s;
-}
-.logo img{
-    width: 12em;
 }
 .transparent{
     background: rgba(0,0,0,0.5); 
 }
-input, textarea{
-    width: 100%;
-}
 textarea{
     min-height: 8em;
+}
+.boxCard{
+    width: 11em;
 }
