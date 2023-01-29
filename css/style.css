@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Amaranth&family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Finger+Paint&display=swap');
 *{
     font-family: 'Amaranth', sans-serif;
 }
@@ -7,11 +8,14 @@ body{
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
+.nameTitle{
+    font-family: 'Finger Paint', cursive;
+}
 .item{
 }
 .item:hover{
-    transform : scale(1.1);
-    transition: 0.2s;
+    transform : scale(1.08);
+    transition: 0.5s;
 }
 .transparent{
     background: rgba(0,0,0,0.5); 

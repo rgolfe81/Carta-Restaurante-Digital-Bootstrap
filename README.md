@@ -20,10 +20,9 @@ El proyecto trata de crear una web para un restaurante que contenga las seccione
 ## Tecnologías
 Estos son los lenguajes utilizados:
 
-<img src="img/logo_html_css.png" width="100">
-<img src="img/logo_bootstrap.png" width="70">
+<img src="img/logo_html_css.png" width="100"><img src="img/logo_bootstrap.png" width="70">
 
 ## Funcionalidades
 1. La web se compone de una barra de navegación resposive de tres enlaces hipervinculados de las tres secciones indicadas anteriormente.
 2. Se ha utilizado bootstrap como método responsive. En la carta de menú, cambia el número de columnas depende de los diferentes tamaños establecidos en bootstrap para las resoluciones extrasmall 360px, small 540px y large 960px. El tamaño del logo de home y el el formulario de contacto alteran su tamaño mediante una mediaquery a los 768px.
-3. Se han utilizado algunos estilos de hover, como tranform y translate para hacer más agradable la navegación
+3. Se han utilizado algunos estilos de hover, como transform y transition para hacer más agradable la navegación
