@@ -6,8 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home</title>
     <link rel="stylesheet" href="css/style.css">
-    <link rel="icon" type="image/jpg" href="img/logo_restaurante.png"/>
-
+    <link rel="icon" type="image/jpg" href="img/Logo_chef.png"/>
     <!-- Links bootstrap -->
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
@@ -27,29 +26,50 @@
     
     <!-- Logo e información del restaurante -->
 
-    <div class="container text-center mt-2 d-flex flex-column text-white">
+    <div class="container text-center d-flex flex-column text-white">
         <div class="row">
-            <div class="col">
-                <img class="logoSize" src="img/logo_restaurante.png" alt="Imagen logo restaurante"> 
+            <div class="col mt-5">
+                <img class="logoSize" src="img/Logo_chef.png" alt="Imagen logo restaurante"> 
             </div>
         </div>
-        <div class="row mt-2">
-            <div class="col mb-5">
+        <div class="row">
+            <div class="col my-4">
                 <h1 class="nameTitle">El Rincón del sabor</h1>
                 <h5 class="nameTitle">El auténtico sabor en cada bocado</h5>
             </div>
         </div>
-        <div class="row mt-2">
+        <div class="row">
+            <div class="col p-2">
+                <div class="">
+                    <h4>Puedes realizar aquí tu reserva</h4>
+                </div>
+                <div>
+                    <input type="date" id="reservation-date">
+                </div>
+                <div class="mt-3">
+                    <button type="button" class="btn btn-light">Solicitar</button>
+                </div>
+                <div class="mt-5">
+                    <h4>Ven a visitarnos</h4>
+                </div>
+                <div class="">
+                    <iframe class="mapSize rounded" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3075.6645838716595!2d-0.6302832847958592!3d39.567169979472915!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd60f677da8336f9%3A0xab0b9b957bf05d89!2sC%2F%20Escriptor%20Enric%20Valor%2C%201%2C%2046191%20Vilamarxant%2C%20Val%C3%A8ncia!5e0!3m2!1ses!2ses!4v1675097056391!5m2!1ses!2ses" width="" height="" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+                <div class="d-flex flex-column mt-1">
                 <span>C/Escriptor Enric Valor, 1</span>
                 <span>46191 Vilamarxant, Valencia</span>
                 <span><i class="bi bi-telephone"></i> 962710123</span>
+                </div>
+            </div> 
         </div>
     </div>
+
 
     <!-- Links bootstrap JS -->
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js" integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofN4zfuZxLkoj1gXtW8ANNCe9d5Y3eG5eD" crossorigin="anonymous"></script>
+<script src="js/main.js"></script>
 </body>
 </html>
