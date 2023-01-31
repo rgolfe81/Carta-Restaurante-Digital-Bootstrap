@@ -26,6 +26,9 @@ textarea{
 .logoSize{
     width: 50vw;
 }
+.fontSizeFooter{
+    font-size: 0.7em;
+}
 @media (min-width:768px){
     .formSize{
         width: 50vw;
@@ -40,6 +43,9 @@ textarea{
     .reserveSize{
         width: 50vw;
     }
+    .navBarSize{
+        width: 50vw !important;
+    }
 }
 @media (min-width:1500px){
     .reserveSize{
@@ -48,5 +54,8 @@ textarea{
     .mapSize{
         width: 35vw;
         height: 35vh;
+    }
+    .navBarSize{
+        width: 50vw !important;
     }
 }
