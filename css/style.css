@@ -11,8 +11,6 @@ body{
 .nameTitle{
     font-family: 'Finger Paint', cursive;
 }
-.item{
-}
 .item:hover{
     transform : scale(1.08);
     transition: 0.5s;
